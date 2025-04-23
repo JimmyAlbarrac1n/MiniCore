@@ -21,8 +21,5 @@ with app.app_context():
 from controllers import main_blueprint
 app.register_blueprint(main_blueprint)
 
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
